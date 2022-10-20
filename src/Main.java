@@ -11,18 +11,27 @@ public class Main {
         int d = c;
         System.out.println(d);
 
-        int e = 5, f = 8;
-        //b = b + a;
-        //b = b - a;
-        //b = b * a;
-        //b = b / a;
-        //b = b % a;
-        b += a;
-        b -= a;
-        b *= a;
-        b /= a;
-        b %= a;
-        System.out.println(b);
+        int e = 2, f = 8;
+        //f = f + e;
+        //f = f - e;
+        //f = f * e;
+        //f = f / e;
+        //f = f % e;
+        f += e;
+        f -= e;
+        f *= e;
+        f /= e;
+        f %= e;
+        System.out.println(f);
+
+        int g = 10 , h = 1;
+        boolean sonuc = g > h;
+        System.out.println(sonuc);
+
+        int xx = -12, yy = -5;
+
+        System.out.println(xx % yy);
+
 
 
     }
